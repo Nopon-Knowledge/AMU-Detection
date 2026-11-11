@@ -1,0 +1,14 @@
+path: /absolute/path/to/BDD100K_YOLO
+train: images/train
+val: images/val
+names:
+  0: person
+  1: rider
+  2: car
+  3: bus
+  4: truck
+  5: bike
+  6: motor
+  7: traffic_light
+  8: traffic_sign
+  9: train

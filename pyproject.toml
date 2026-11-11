@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "road-scene-amu"
+version = "0.1.0"
+description = "Assignment-matched shallow-path utility supervision"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9,<3.13"
+dependencies = ["torch==2.2.2", "torchvision==0.17.2", "ultralytics==8.3.40", "numpy>=1.24,<2", "PyYAML>=6", "opencv-python>=4.6,<4.12"]
+
+[project.urls]
+Homepage = "https://github.com/Nopon-Knowledge/AMU-Detection"
+Repository = "https://github.com/Nopon-Knowledge/AMU-Detection"
+Issues = "https://github.com/Nopon-Knowledge/AMU-Detection/issues"
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+
+[project.scripts]
+amu = "amu.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["amu*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

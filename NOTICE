@@ -1,0 +1,14 @@
+AMU Detection
+Copyright (C) 2026 AMU Detection contributors
+
+This project is licensed under the GNU Affero General Public License,
+version 3. See LICENSE for the complete terms.
+
+This project builds on and adapts interfaces from Ultralytics YOLO11:
+https://github.com/ultralytics/ultralytics/tree/v8.3.40
+Ultralytics is distributed under AGPL-3.0 or its separately offered
+commercial license. Upstream copyright and license terms remain in effect.
+
+PyTorch, torchvision and other dependencies retain their respective
+copyright and license terms. Dataset images, annotations and model
+weights are not included in this repository.

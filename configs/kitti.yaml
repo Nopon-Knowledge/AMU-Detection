@@ -1,0 +1,13 @@
+# Replace path with the real converted dataset. Preserve the original split manifests.
+path: /absolute/path/to/KITTI_YOLO
+train: train.txt
+val: val.txt
+names:
+  0: car
+  1: van
+  2: truck
+  3: pedestrian
+  4: person_sitting
+  5: cyclist
+  6: tram
+  7: miscellaneous
